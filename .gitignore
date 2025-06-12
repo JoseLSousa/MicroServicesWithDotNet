@@ -1,0 +1,74 @@
+## Build results
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+## Visual Studio
+.vs/
+*.vssscc
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+
+## ASP.NET Core
+appsettings.*.json
+appsettings.Development.json
+secrets.json
+
+## EF Core
+Migrations/
+
+## Dotnet tools
+/.tools/
+/.dotnet-tool*
+
+## Logs
+*.log
+logs/
+*.db
+*.sqlite
+
+## Docker
+**/docker-compose.*
+docker-compose.*
+*.env
+.env.*
+
+## Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Npm/Yarn if used in frontend
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+
+## OS Specific
+.DS_Store
+Thumbs.db
+
+## Others
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# Ignore IDE temporary files
+*.ncrunch*
+*.resharper*
+*.vsconfig
+
+# Ignore generated files (optional)
+Generated/
+
+# Ignore publish output
+publish/
