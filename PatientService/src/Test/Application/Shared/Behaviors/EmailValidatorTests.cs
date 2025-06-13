@@ -41,5 +41,11 @@ namespace Test.Application.Shared.Behaviors
 
             result.ShouldNotHaveValidationErrorFor(e => e.Value);
         }
+        [Fact]
+        public void Email_ToString_ReturnsValue()
+        {
+            var email = new Email("contoso@email.com");
+            Assert.Equal("contoso@email.com", email.ToString());
+        }
     }
 }
